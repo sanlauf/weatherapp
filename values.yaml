@@ -1,2 +1,4 @@
 svc-weatherapp:
   enabled: false
+svc-weatherapp-generated:
+  enabled: false
