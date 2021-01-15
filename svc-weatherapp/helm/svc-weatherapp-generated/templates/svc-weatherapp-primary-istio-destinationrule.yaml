@@ -1,0 +1,7 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: DestinationRule
+metadata:
+  creationTimestamp: null
+  name: svc-weatherapp-primary
+spec:
+  host: svc-weatherapp-primary.weatherappv2-staging.svc.cluster.local
